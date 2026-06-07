@@ -32,7 +32,7 @@ class ClaudeService:
     apenas gerencia o envio e recebimento de mensagens.
     """
 
-    DEFAULT_MODEL = "claude-sonnet-4-20250514"
+    DEFAULT_MODEL = "claude-sonnet-4-5"
     DEFAULT_MAX_TOKENS = 1024
 
     def __init__(self, api_key: str = None, model: str = None):
