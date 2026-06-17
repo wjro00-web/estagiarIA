@@ -5,6 +5,7 @@ Princípio SOLID aplicado: Open/Closed Principle (OCP) — aberto para extensão
 fechado para modificação. Novo comportamento via composição, não herança.
 """
 
+from __future__ import annotations
 from src.claude_service import ClaudeService, ChatMessage, ChatResponse
 
 

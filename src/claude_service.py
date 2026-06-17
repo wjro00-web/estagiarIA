@@ -4,6 +4,7 @@ Responsável exclusivamente pela comunicação com a API da Anthropic (Claude).
 Princípio SOLID aplicado: Single Responsibility Principle (SRP).
 """
 
+from __future__ import annotations
 import os
 import anthropic
 from dataclasses import dataclass
